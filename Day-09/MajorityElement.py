@@ -13,3 +13,10 @@ class Solution:
                 count -= 1
 
         return candidate
+
+
+
+solution = Solution()
+
+print(solution.majorityElement([3, 2, 3]))
+print(solution.majorityElement([2, 2, 1, 1, 1, 2, 2]))
