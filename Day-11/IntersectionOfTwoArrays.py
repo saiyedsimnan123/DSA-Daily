@@ -9,3 +9,10 @@ class Solution:
                 set1.remove(num)
 
         return result
+
+
+
+solution = Solution()
+
+print(solution.intersection([1, 2, 2, 1], [2, 2, 3]))
+print(solution.intersection([4, 9, 5], [9, 4, 9, 8, 4]))
