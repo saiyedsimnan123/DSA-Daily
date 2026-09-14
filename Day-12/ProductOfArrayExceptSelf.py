@@ -18,3 +18,11 @@ class Solution:
             right_product *= nums[i]
 
         return result
+
+
+
+
+solution = Solution()
+
+print(solution.productExceptSelf([1, 2, 3, 4]))
+print(solution.productExceptSelf([-1, 1, 0, -3, 3]))
